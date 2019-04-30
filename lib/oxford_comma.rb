@@ -9,13 +9,11 @@ def oxford_comma(array)
     nuarray.delete_at(1)
     nuarray.insert(1, ",")
   
-  
-  
-  
-  
-  
     a = nuarray[0] + nuarray[1] #Kiwi,
     b = nuarray[2] + "," + " " + nuarray[3] + " " + nuarray[4]
     a + " " + b
+    
+  else 
+    
   end
 end
