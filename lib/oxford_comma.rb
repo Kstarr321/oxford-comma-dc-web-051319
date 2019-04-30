@@ -14,6 +14,10 @@ def oxford_comma(array)
     a + " " + b
     
   else 
-    
+    last_item = array.pop
+
+    mod_array = array.join(", ") 
+
+    final_array = mod_array + "," + " " + "and" + " " + last_item
   end
 end
