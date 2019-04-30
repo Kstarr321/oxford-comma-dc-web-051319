@@ -14,8 +14,8 @@ def oxford_comma(array)
   
   
   
-    a = nuarray[0] + nuarray[1]
-    b = nuarray[2] + " " + nuarray[3] + " " + nuarray[4]
+    a = nuarray[0] + nuarray[1] #Kiwi,
+    b = nuarray[2] + "," + " " + nuarray[3] + " " + nuarray[4]
     a + " " + b
   end
 end
