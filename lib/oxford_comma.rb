@@ -1,6 +1,8 @@
 def oxford_comma(array)
   if array.length == 1
     new = array.join(" and ")
+  elsif array.length == 2 
+    new = array.join(" and ")
   else 
     new = array.join(" and ")
     nuarray = new.split(" ")
